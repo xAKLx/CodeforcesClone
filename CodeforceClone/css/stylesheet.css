@@ -1,7 +1,4 @@
-body{
-	margin: 3px 8px;
-}
-
+/*Globals*/
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -9,10 +6,42 @@ body{
 	box-sizing: border-box;
 }
 
+/*Modifier*/
+body{
+	margin: 3px 8px;
+}
+
 p{
 	font-family: verdana,arial,sans-serif;
 	font-size: 1em;
     line-height: 1.4em;
+}
+
+td, th{
+	text-align: center;
+}
+
+td{
+	color: red;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/*Structure*/
+#Body {
+    padding-top: 0.75em;
+    max-width: 1200px;
+    min-width: 920px;
+    margin: 0 auto;
+}
+
+.row{
+	width: 100%;
+	display:flex;
+	flex-wrap:wrap;
 }
 
 .menu{
@@ -23,20 +52,14 @@ p{
 	border-radius: 5px;
 }
 
-li{
+.menu li{
 	display: inline;
 	margin: 5px;
 
 }
 
-.menu > li:hover{
+.menu li:hover{
 	border-bottom: 3px solid #3B5998;
-}
-
-.row{
-	width: 100%;
-	display:flex;
-	flex-wrap:wrap;
 }
 
 .entrys{
@@ -64,23 +87,6 @@ li{
 	width: 100%;
 }
 
-
-
-table, th, td{
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-
-
-
-td, th{
-	text-align: center;
-}
-
-td{
-	color: red;
-}
-
 td:first-child::first-letter  {
     color: black;
 }
@@ -97,12 +103,6 @@ td:nth-child(2)::first-letter  {
 	font-size: 20px;
 }
 
-#Body {
-    padding-top: 0.75em;
-    max-width: 1200px;
-    min-width: 920px;
-    margin: 0 auto;
-}
 
 h1{
 	color: #3B5998;
