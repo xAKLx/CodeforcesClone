@@ -11,6 +11,10 @@ body{
 	margin: 3px 8px;
 }
 
+h1{
+	color: #3B5998;
+}
+
 p{
 	font-family: verdana,arial,sans-serif;
 	font-size: 1em;
@@ -28,6 +32,15 @@ td{
 table, th, td{
 	border: 1px solid black;
 	border-collapse: collapse;
+}
+
+td:first-child::first-letter  {
+    color: black;
+}
+
+td:nth-child(2)::first-letter  {
+    color: black;
+    font-weight: bold;
 }
 
 /*Structure*/
@@ -87,23 +100,9 @@ table, th, td{
 	width: 100%;
 }
 
-td:first-child::first-letter  {
-    color: black;
-}
-
-td:nth-child(2)::first-letter  {
-    color: black;
-    font-weight: bold;
-}
-
 .tableHeader{
 	color:blue;
 	text-align: left;
 	padding-left:10px;
 	font-size: 20px;
-}
-
-
-h1{
-	color: #3B5998;
 }
