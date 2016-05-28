@@ -36,16 +36,16 @@ li{
 	flex-wrap:wrap;
 }
 
-.Entrys{
+.entrys{
 	width: 75%;
 }
 
-.EntryContainer{
+.entryContainer{
 	width: 100%;
 	margin-bottom: 55px;
 }
 
-.EntryContent {
+.entryContent {
     border-left: thick solid #b3b3b3;
     padding-left: 20px;
 }
@@ -87,14 +87,14 @@ td:nth-child(2)::first-letter  {
     font-weight: bold;
 }
 
-.tableheader{
+.tableHeader{
 	color:blue;
 	text-align: left;
 	padding-left:10px;
 	font-size: 20px;
 }
 
-#body {
+#Body {
     padding-top: 0.75em;
     max-width: 1200px;
     min-width: 920px;
