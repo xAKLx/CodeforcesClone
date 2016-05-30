@@ -130,7 +130,6 @@ td:nth-child(2)::first-letter  {
 	width: 100%;
 	border: 1px solid rgb(185, 185, 185);
 	border-radius: 5px;
-	border-collapse: collapse;
 }
 
 .tableHeader{
@@ -138,8 +137,8 @@ td:nth-child(2)::first-letter  {
 	text-align: left;
 	padding-left: 10px;
 	font-size: 20px;
-	border: 1px solid rgb(185, 185, 185);
-
+	margin: 0;
+	border-bottom: 1px solid rgb(185, 185, 185);
 }
 
 .tableData{
@@ -151,5 +150,14 @@ td:nth-child(2)::first-letter  {
 }
 
 .tableData td, th{
-	border: 1px solid rgb(185, 185, 185);
+	border-bottom: 1px solid rgb(185, 185, 185);
+	border-left: 1px solid rgb(185, 185, 185);
+}
+
+.tableData td:first-child, th:first-child{
+	border-left: none;
+}
+
+.tableData tr:last-child td{
+	border-bottom: none;
 }
