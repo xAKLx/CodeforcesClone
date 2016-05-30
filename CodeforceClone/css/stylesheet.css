@@ -13,10 +13,12 @@ body{
 
 h1{
 	color: #3B5998;
+	font-family: verdana, arial, sans-serif;
+	font-size: 2.4em;
 }
 
 p{
-	font-family: verdana,arial,sans-serif;
+	font-family: verdana, arial, sans-serif;
 	font-size: 1em;
     line-height: 1.4em;
 }
@@ -46,6 +48,11 @@ td:nth-child(2)::first-letter  {
     margin: 0 auto;
 }
 
+#homeImage{
+
+	margin: 0 1em;
+}
+
 .row{
 	width: 100%;
 	display:flex;
@@ -56,14 +63,19 @@ td:nth-child(2)::first-letter  {
 	list-style-type: none;
 	padding: 8px;
 	padding-top: 14px;
-	border: 1px solid black;
+	border: 1px solid rgb(185, 185, 185);
 	border-radius: 5px;
+	margin: 0 1em;
 }
 
 .menu li{
 	display: inline;
 	margin: 5px;
+}
 
+.menu li > a{
+	text-decoration: none;
+	color: black;
 }
 
 .menu li:hover{
@@ -77,6 +89,12 @@ td:nth-child(2)::first-letter  {
 .entryContainer{
 	width: 100%;
 	margin-bottom: 55px;
+}
+
+.entryHeader{
+	color: #3B5998;
+	font-family: verdana, arial, sans-serif;
+	font-size: 1.4rem;
 }
 
 .entryContent {
