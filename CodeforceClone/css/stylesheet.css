@@ -103,11 +103,12 @@ td:nth-child(2)::first-letter  {
 
 .entrys{
 	width: 75%;
+	padding-right: 1em;
 }
 
 .entryContainer{
 	width: 100%;
-	margin-bottom: 55px;
+	margin-bottom: 1.em;
 }
 
 .entryHeader{
