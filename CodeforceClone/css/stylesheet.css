@@ -48,9 +48,21 @@ td:nth-child(2)::first-letter  {
     margin: 0 auto;
 }
 
-#homeImage{
-
+#pageHeader{
+	width: 100%;
 	margin: 0 1em;
+	display:flex;
+	flex-wrap:wrap;	
+}
+
+#homeImage{
+	width: 50%;
+}
+
+#userLinks{
+	width: 50%;
+	text-align: right;
+	font-size: 1.1em;
 }
 
 .row{
@@ -82,6 +94,13 @@ td:nth-child(2)::first-letter  {
 	border-bottom: 3px solid #3B5998;
 }
 
+.page{
+	width: 100%;
+	margin: 0 1em;
+	display:flex;
+	flex-wrap:wrap;
+}
+
 .entrys{
 	width: 75%;
 }
@@ -104,7 +123,6 @@ td:nth-child(2)::first-letter  {
 
 .tables{
 	width: 25%;
-	padding: 20px;
 }
 
 .tableContainer{
